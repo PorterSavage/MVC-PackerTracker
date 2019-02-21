@@ -1,0 +1,12 @@
+@using PackerTracker.Models;
+
+<h1>Trips and Gear</h1>
+    <ul>
+        <li>Destination: @Model.GetDestination()</li>
+        <li>Clothing: @Model.GetClothes()</li>
+        <li>Food: @Model.GetFood()</li>
+        <li>Money: $@Model.GetMoney()</li>
+        <p>-----------------------------------</p>
+    </ul>
+<a href="/">Click here to add another trip to your list!</a>
+
